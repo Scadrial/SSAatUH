@@ -1,17 +1,19 @@
-import ProfilePic from './logo192.png'
 
-function Card(){
+
+function Card({name, image, position}){
     return(
-        <div className = "card">
-            <img src={ProfilePic} alt="profile pictur">
-
-            </img>
+        <div style ={{textAlign: 'center'}}>
+            <img
+                src={image}
+                alt=""
+            />
             <h2>
-                George Meadows
+                {name}
             </h2>
             <p>
-                President of SSA@UH
+                {position}
             </p>
+
         </div>
     );
 }
