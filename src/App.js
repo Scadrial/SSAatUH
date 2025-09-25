@@ -6,25 +6,27 @@ import tempPic from './logo192.png';
 function App() {
   return(
     <>
-      <Header></Header>
-      <div style={{justifyContent: 'center', alignItems:'center', display:'flex'}}>
-        <Card
-          name = "George Meadows"
-          image = {tempPic}
-          position = "President"
-        />
-        <Card
-          name="Vice President"
-          image ={tempPic}
-          position="Vice President"
-        />
-        <Card
-          name="Financial Officer"
-          image={tempPic}
-          position="Financial Officer"
-        />
+      <div style={{backgroundColor:'red'}}>
+        <Header></Header>
+        <div style={{justifyContent: 'center', alignItems:'center', display:'flex'}}>
+          <Card
+            name = "George Meadows"
+            image = {tempPic}
+            position = "President"
+          />
+          <Card
+            name="Vice President"
+            image ={tempPic}
+            position="Vice President"
+          />
+          <Card
+            name="Financial Officer"
+            image={tempPic}
+            position="Financial Officer"
+          />
+        </div>
+        <Footer></Footer>
       </div>
-      <Footer></Footer>
     </>
   );
 }

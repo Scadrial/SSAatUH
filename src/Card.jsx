@@ -7,10 +7,10 @@ function Card({name, image, position}){
                 src={image}
                 alt=""
             />
-            <h2>
+            <h2 style={{color:'white'}}>
                 {name}
             </h2>
-            <p>
+            <p style={{color:'white'}}>
                 {position}
             </p>
 
