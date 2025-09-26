@@ -6,7 +6,7 @@ import tempPic from './logo192.png';
 function App() {
   return(
     <>
-      <div style={{backgroundColor:'red'}}>
+      <div style={{backgroundColor:'red', minHeight: '100vh'}}>
         <Header></Header>
         <div style={{justifyContent: 'center', alignItems:'center', display:'flex'}}>
           <Card
